@@ -1,0 +1,410 @@
+{
+    "user":[
+     {
+       "id": 1,
+       "name": "akshay",
+       "email": "akshay@gmail.xyz",
+       "password": "1234"
+     },
+     {
+       "id": 2,
+       "name": "vaibhav",
+       "email": "vaibhav@gmail.xyz",
+       "password": "1234"
+     }
+   ] ,
+   "Products": [
+     {
+       "id": 1,
+       "name": "Ertiga",
+       "brand": "Maruti Suzuki",
+       "price": 1000000,
+       "color": [
+         "Red"
+       ],
+       "images": [
+         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSAXNb_AxodBharPF9jpugR0qWJAKM2rZjH6hWtVRYW_1M-vQvWHAOf_HmEqcvkgrnCM&usqp=CAU"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 2,
+       "name": "Alto",
+       "brand": "Maruti Suzuki",
+       "price": 500000,
+       "color": [
+         "Red"
+       ],
+       "images": [
+         "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGBxQUExYUExQWFxYYGR8ZGRcZGRkZGBkZGRgZGBwYHBoZHyoiGR8pHRYYIzQjJysuMTExGSE4OzYwOiowMS4BCwsLDw4PHRERHDAnISgwNDQyMjAwOzA4MDAwMDAwMDAwMC4yMDAwMDgwMDAwMDAwMTAwMDAwMDAwMjAwMDAyOv/AABEIAMkA+wMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYHAQj/xABNEAACAQIDBAYFBgoHBwUAAAABAhEAAwQSIQUxQVEGEyJhcYEHMpGhsRQjQlLB8BVTVGJygpKy0dIWM0OiwtPxJIOTo7Ph4hc0RMPj/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv/EAC8RAAIBAgQEBQMFAQEAAAAAAAABAgMRBBIxUQUTIUEUImGRoRVSgTJxscHR8GL/2gAMAwEAAhEDEQA/AOzUUUUAUUV4TQHgr2qfbXSXD4bS7cAY7ra9pz4KNfPdWYxHpN1+bwzkfWdgP7qgmqynGOrN6eFqzV4x6G9Fe1gNodP7iXBZCIHNvrAwl1YAFiVBNtjCiTAI7LciBZbI2ribydYl+y4Omlpuy3I/OAg67qZu5VUW207Jo11FZG5f2i39tZT9FGPvaaUoxcDNi2njFq1HlKzUZvRmnhpbr5/w1lFZm7isVAyX0nm1qZ/ZYQaii7j80nFW45CyB7CZjzmmb0Cwsn3Xz/hr4oisz8rxI3X0P6VoGfHK4+ykYra+MA+bGHfnmzofISwPtFTmI8LPsaqaJrH2OkuOBi5hkPIo6x5gvMd4nwqT/Si8oHWYVmn8S4f2h1SPKaZ0Q8NUXb5NPRWTX0hYYEC7bv2j+faP+GascN0twbiRfQDmeyNd0ltAddxqFOL7lZUKkdYsvKKj2MXbfRHVvAg/Cn6uZHtFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFeUA1euhQWYgAAkk7gBvNc76VdO3OZLRNtANSI60r9YluzZU82MngQdKlelnpI1q2ti1PWXGUEAwTLABZ4TInjB0qF0D2Na6pcRcVXuOxe2TqqLJVXRToGcDPnMvDgZtKo05OyfQ6abhSScldvS+i9WZe/eNuzcvOmQnUFg8vO52a4A1waE5hoQpgnfU7olhHv4YYh0Krnm2WaXdUYAuVChVGhgCPVO/SYPpUxrXrwspq1xwgHOW6tP3G/4ldA+TpZspYT1baC2O8KoWfExPnVYU4tM66+LqRnFX0Sv+exmht5sMrhQD1QYJIGgVjbEGJA7ImsVg+kuJss7WLnUdYZZUVSu8wArghQJIHdpuq86RN27g5qx/5lw1k1w7ESBp4ipodU7leI+WUcvToWx6bbQ/K7n7NsfBaQ3TLHnfi7v93+FV9nBme1u5T/AApw4Re/21vlR5ueW79yQelmN/KrvtH8KSeleN/KbvtH8KjnBjmfd/CmrmEI1Bnu3VGVbDmT3fuTf6VYz8pue1f4U5a6U40mBiHJ5AIT+7TWxsVaQNnAkneVnT2VPfaVo7imh4jTz0qcq2RPOqbv3G7PS3F/lDH9W3/LVhhek+Mbdcn/AHaR+7TNvG2DwQ/qg/Z3H2V71ok5d06eHKocI7FlXqfcy0HSTFADMyEHmgI9gNOWtr3GMm3hyd09UQfCQ1Vd1pQ90H7+VSsBrbYcjm8og+7XyqeXF6onxNVaSJSWW/s7a2jv7DOqzzylWA8oq82N0lxtnS4ov2p3BpuKO4sAWPcc08xuqvwl2QPvrU+3rrxqOWlp0Idecv1Wf7r/AA3Ox9r2sRbFy02YbiNzKw3qynVWHI1PmufW0uI/X4chbwHbQ+peUfRfv5ONV7xpWv2FtlMTbzpIIOV0bR7bjejDn37iCCJBqumpVpNXRaUUUUICiiigCiiigCiiigCiiigE1G2ji1tW2dtyifHkPM6edSayvTnEyEsg7yGbwG4fE+Qqs5ZVc2w9LmVFE5T0wxz3sTq3a1g7/nGhFP6ty8P2K22D2oqqtu3oqqFUDgqrAHkBXM7+ILX1fg7Zx4Auf3ih8hWq6JXDcusTuRCx9w+Gb2Uj0gaVbTxFu17fhECy/W7XtTqtlnuHu6lco/5iqfOtXi9sjKT3TWE6KXSb+JvHeqBfNiXb3pSsXtOVj7a0pq0EY4iWaq36lj0jb57xBH7rf/ZWYO/StHtwyLL8wD+1ZtH/AAVnriwxHfWFB9Wj0eJK8ISJWEu5hB3j3inoqDZbKwPt8KsStdJ5IiK8im8RiMpiJPwpr5YeQ99CCOV7RjdJpLaUpdDSeNCT1DVhgcSdx8qgAUq20GRQF/beRHMRT+x8XlYA7j2T56VX2bnGlW70OfGfgalFWaPCNlJU8Pv7xB86s7Fyqe+4BRxuZR7tD7iP2am2LlWIRc2X3EbxTlxHVxicNpeUAXLcwt+2PoNyI1KtwPcTUHD3an4e7BkVRq5aLad0azYm1reJtC7bJg6EHRlYaFGH0WBkEGrCufYt3w1z5ZhlLKf/AHFofTUCM6gfTA9oHMLW22XtG3ftrdtMGRhII+HjWWjsaOPS60JtFeV7UlQooooAooooAooooBtyBvrK7X2f1tx3zHUQOW6BSfSPtHE2bdr5KUDFzmDgEMoXdB7yN0VkMB6SyhCYzDtb4dZbll8crGfYx8KynKL8rPQwtKcY8yPcrdr9HrOGyHEAG5qLcO4RlBGY9mGH0NOZ5aV7gOkdmzmCW7KhhlbLBzDUQc6EkQx0J4mrfpthk2nh0uYG4ly5ZJbIGysUYDMMrQVYFVIDRMHurlWOF6w2W9bu2zydCvsnfWclN/pfQ7aVTDwXnis13ds6JY23gYI6m0mb1os21nxNsAneaynSXDItyLDBkcShBJgnSJOuh561QLjp4/GrDYdt7160ikQjrchmCiA6yAXIE7jE6gVennT66GOMlhpU24JX9DadLkXKQCJTKY45QzpMcoIrK4m2Qc0aNx4Ty900+20P9rui7uLlD3QAPcVB8qkm1lJRxI4jnyYH7ayU8lR3Op4fxWFiovqv5KunVuMYAmB8KmW9lqx7NwDucEe9Rr7BUxejV8CVFsjmCxHmQCK61Ug+548sDiIvrEqAj8xQbc7wPEaVZjYmI4G0fBj/AC17/R7FncgPgGP+Gp5kdyrwdZaxZTNZPjTeWKvf6L4z6n9258RbNef0Sxp/sv8AqfZZpnjuV8NV2KOaJq/Xofi+NpR4LfY+fZA9wpF7ohjAOzaUniWS4B4BQp9pPlUcxbjw1XYqLWII4/CnVvyZqWeiGPmSlvSdMlwDXwQbqWnRTGfik/5v8tOZHcnwlXYn2MahsAFhmU6DiROvuY+yp+CxYIGomqez0Xxp3W1MaGDdMdx+b0NWWF6MYv6SR5XT8LVW5ifcq8NUXYubF2p+Hu1Rp0cx4jq0WOObOPDRlUe+n36P7YYdj5PbPNmUz5ANHv8AGpzxKujJar5NLhb8GOB4VRYvG3tm3G6gr1F85lV9VS5v4EZQ0eAOsQaRY6P7bG+9gD49Zy/MtjSp2I2BtC/ZNnEnBEb1a0b6srSCCcyGd0QMtUk4stBSi9Cfsj0jI1vNeTK2YLChpJzFWGUzlZSDIJiADOordiuW4HoDcUp1uIXKlxXyoraiVzIZjeFADbwAByjp1m8GEgyKpFu7uXrqNk4q2/7jtFeV7VzAKKKKAKKKKA5z6V9qdXcsp+YzH9YhR+6axzY23dkZdIAOaTLdrMYO4Rl0GnHjWp9I+z1v4l8xIyYdQn6Ra40n3e2ubHatxsmdi2RFtrPBFkqvlJ765Kn6mfRYLy0ok3E7HUMLllzacagqSIPdGo8qs9ndPsVZ+bxiddb3ZjAaPH1X8CJ76qLO0NRPAgxz1qXfxNt/7MqCpzSWKs2aJVWJyDRhCnL2dI1qsZNG9SlCbXQ12z22ZjRKWcOzxqrWra3B5Rr4iRVZ0l6EYQ2rrpYyOqMy9WWHaUEgFdQdRyrG4nZmua0SpGo7j3cqttkdOb9khL461OZ0ceDfS89e+rKo2c8sNGOsVYyyYYhgQdOHCAIUbvD3Vq9isLyi23rqOyeaj6J8Ph4VNfZ+Gxai5h7gW7AzqREniSn0dZ1WRUzYexupzMzBmIjQGAN51OpJIHLdWU80pdT0MPGFOnaPsNWdm22MMCrd32cx7/HhLXYt5BmtXJ5GY9hFOYkDj7eIp3ZeJvZiElu+JG76Q46Ad+6NJi1NZnl7la83Thnb6eoi1t3G2NHlx+dJ/vDX2zVpg+mKPpczIe/VfaN3mKrz0ltklXWCNDoyn2OAF8zNN4jEYa4JMeJEf3tx8jWjhUjqccKmHrbX9Ohp02oGEqQQdxBke6vTtCsULGQzacr57/41Lt7bYaXV/WX7Rx8vZUKbNXho9jU/hE16NpGs58uBEq0jmPvpSTj++pzDw8djTDahpX4WrLHH99Hy/vpmY8LDY1I2pShtOssNod9ejaHfTMR4WOxqfwlXv4SrK/hHvo/CXfTMR4WJrBtEUoY8VkfwnXo2pTMVeEia18WCKawW1erfUxmgTwPKfhPl4ZkbUprE47MNanM0Q8HFqzOmWtoLubSpauDuNctwe32Nsox7SbjxI4T8PKjDdL7qMAhJJIAHOTEVqqiOCpw2STaeh1WiqTY+3RcVs6suWAXysEMiZDEQYMgxMRrFXQNaNWPLPaKKKA456QdtgbUe39W2iTOmbLnP78eVZQ7KFxmWy03ASWtEgN6xAKHcwO/LoRIjNrTXpA2jO1cSI1F2Ae9VUD90VH2hfK3s6NlJCkHxAEEHeNK5Wkpebue5Tm5UFy31j89NBt7ZBIYEEaEHQjuIO41O2hty7eW2tzLFtSq5VC7yCS0byYGum7xpeH2wt+5kxUKoQBWUDMWkz22ExEdgnlrvpvaWxHUF7RF1BxX1l/SXePHdSVNrquqLUsXGTtLpLZ/0Mpia9Zg28VVi/UixdrFo7oVLirWHIcG2xDDkYI8xqK0+zNu3VAF9CR9cDUd5A0Plr40jYV1nKC402lIGUjhmHHgPW9u+tpjrK5d1Em+pbMotK2pQXsQGAIIIO4jcRWj6O4NHwqkjNmfKw5/7QEg90ZD4CsxibYAOXQb476l9B9uizfOHumEukOh5OAFYdxOW2R3qedaUHaZz8UTeG6dmiZjDaN42yIRezAgqpBgBA068zxndpJkWujdi5qtx0b60ZhH6hUe1YFQts4Jw78CGM+ZMN4Hf51GwW2r2HdLasS7jKpPayAnW4BxgZ2jj1feKwp4urKvkv302R51XB0Y4dVO9l+WyRjei7oT1brcjjbzDhMFlXIXgg5cvnrVHirN0EgAsRvQgrcHfkPrDvGvdXQdk7WTKqMYAjLCsxZmY67tSTGu+T31MxuzMPetjjB7LSAwMgEhuGrL3HjNepKnGWqOGjjK1LSXTZ9UchTGwZUx/24GpCbSJ31Z9JtnpmhyEufQvDRLkaFbo4EaAneum8HXLDEQSCCCDBDRII3jsgT7eNc8sPJaM9elxWlJedNP3Lj5dXny2qxcWvEe6P8RpXylORrPlT2Oj6hhvu+Cy+WmvPlpqu+Up3/fzrw4peR9n/lU8uexHj8N93wyx+XGknHGq84peXu/8ql7LwzXjIyJbEBrtzs21kwJbNqZ4DXf4U5ctifqGG+74Ys4815+EDSNsYO9hnyXrQWfVcSyPxlGDQecaHmBUMX25J7G/nqeVIo+I4fd+xYfhE0htpNUZXY7lXyB+0mnES54eCJ9qmnKmR9Twy39h/BYlyxjiI94qfgLDKzOYzKpIUkCCdFzcVB19hI3VAth9xdz3SE/6YWR41pthsLGH65LYJnMQLQcZA3VkBcw1kXGgSTDaaTV6dBqV2zkxXFI1IOFOLV+7LXZeJxNoG71L3klWcgOjABg3zYYRc0gR2Tv4iDpeiW1M6hGbNpmRp0KEmInUx36iCDERULZHSkXSUK5j2lMCJysbZENzYMPGB9Kq/FX+oxMWvVfM41PYuKoLEcw4ZCe9S29yaV4yupp6ardHmU2rOLWv8nQRXtN2nBAI3EAjwNOVsZnzZ0o2YLm2sUl5ii9eWJEZu0QVCzpJBB8qg7TtlXKHfbJQ/qsQD4RW66f9HQdsiTCYi2txyPo5B1Oumnaya8cx7qxe2TN4lozMqFhyaMrD9pTyrKtG8Uz0OH1LScH3/ornMiDqKcwm0LtogoxgbhOo8DSWWmytYwqOOh318NGfb8ls+Pw+I/rl6u5+NQASfz0GjeKwagYjDG0+XMrDgynQj7DqPaN4INRGSnFYnKD4eW8fEjzrSTjJX7nNS5tKai+sdy9wW0urG6SeB3eJrTbL6UC8OruAK/Ajc3d3H41hHcCSSABxNeWsRxVvAg7iN3ga57NK56SrLNZm9xDQCT9+6qLEWOsUqTDTmVhvU7tO6NPCptnHi/bUjQx2h+eJBju/m7qYcFTNV6p9DqklUi09GXGx+lisnVY0i3dUZVva5Lg/OaIRhAnN2TPDQCQ2HUYi27wyFch0kiQ2VhwZZI1UkHNEiRWUxKhtVPlx9nGlYKzAgG5bnfkYhSZmShlJnWYrSEqanzGvNpdHmVuG1ZRy05dNbP8Apms2xsxbtu4Et3LikSJctGQTk3iYY6ruIO7iJextoNYtKbzgW8rywBJX5yyjZid/ZR201hCTVbhMdc3q0HmrNbJ0AkxIns/V3+UC2z2QxuMo+jmDSJBOpjflWdNwiutVoPueZPh2Jg+sfbqWnS7ApfVBIJumDlEFSFBW7MkArmA/OUkGQK5niLJ6hbrHUNkB+usEyOeUxr+eo8d3th3uILdpcqwcwkKSPqSJIBJ7Tak67pJOYvdHbt1gbt0aaBFtkqoG5RLDTU9+p4kmpdWCWpWOAxEn0i/4M+97KJJAndO7xP3199Rhim/HWx4f91NajEdE3AlntkH66lCfLMaiDo6Pq2Pv4VTnQ3NFw7Efb8opBij+PT7/AO6NKOMj+2X3/wCRWj2d0Pe8zrZs2bjIAXAMZc05ZzOBrBqwT0bYv8is+bp/m1ZTT0/gzlhJxdpWT9WjLpZulcwZ4IkMEcrG8H+o3RWj6AY+8UuL8tw7KCR1F8XArAkzJZcqKZPI8N2lWFn0e4/cMPYA4S+g9l2n7HoyxYIbq8Mjc07LAnkwckHvpnXr7GfIf3L3QdJ8LcGEudXcu4VBJNhz1ttohybDrLEAHMIGXXeoFc0+Wjji7/krf5grqV/0a418uY4ZsogG6A5A3wPm4GsmAAJJPE0q36L8b+Mwo8Laf5NM3oyeT/6Ryg40ccTiD+r/APrXovqT6+JbwIH2muwJ6McXxxVsfooB8EFPr6MMRxx3sV/scUzPZk8iPea+f8OX27tywR1ee8DvWXcDXgTbGU+B8Qa33RvaVu5bt2nFxWE5VbsFsxLZYb1bgLQAdG0gnca3E7Aysytdd8jMs5n1ysVJhmPEGnMNgcOBle3v0JIVpHKIGlZeJinax3LhM3HNmRrtg4C3Zl81ySAMptlWtgC2ACWEK3YaZJE5DuUVWdKMaJjDjrLrK4B0CKbmVd+4BUWNCTr3GqjazNIjEdgCAWuRA8zNRbO1LNk5gWvP3dlfNn1PkpqJ4hPoka0+EZfNKX4SOtdEsQWsLbdsz2gLbN9aFGVteakec1dVzj0X7ce/iLweBKKQo3DI0eO5vjXR5rWnLMrnl4qnyqric86ZDNtS1bJy58MLYYiVBfEDKDH56ow/RjTNI5P0kb/aAeZYRroSxeNeWeK6h6Sr7W8clxMsjDDU8MuIDyO8RXKOmoyYh1DZu1mDa7ripdUbzqocL3Fau1dWM6c8k1Jdho0mJpjCY4MIbf4/A8PA6VJZeIO7jy8Rw+FcUoWZ79KspxutBtlpCmCPEfGluedMs1ETNpEbat6SByE+Z/0prA3GU5oJXc0Ax/rWl2fs+zbAv4gBy39VaOqwB67Djv0U6RBMyoMt+lsmPo6iPoga6BQAoHaOgH0u+uuMVlszw6tWXNcl2ZC2HjMrFSdDqO4/f4VdX8TOhGvPn5cKzWNvA3C66A9qIAgnUiBp36aa1JGNJ31xzjZn0WGrKcEywS0WJ99SsPhwd1xge7T4GoGHx4WSdxGo+0VGG3yh7NpT+lmJ9xqii2dPNhBXkzR20xC+pfbz1+M06uOxa72RvFE/gKoE6WPxsjyLj4zTi9Ll3NZI/X/itTkkFiKL7/Bejbt4etbt/smD7GptulL7giKeYBn+8TVUekVlhqjj2H4V7Ze05lSfMEfEVR5kaJ05aWZMRrl5pYk0+t3DW/XvJPIGf3Zqg29tBv6m1rAkgGC3d+dprl7jWcV7jaQZPd/HdWsKDkrnDiuJ06UskVdo7X6L7lt72LuWmDKUsAkAjtDrhx7stb0GuLej3pGuAW/ntM5u5CAjKIyBwR243l9J860f/qzbIlcO/g1yCCN4IFswdf4V2wjlikfOVqvNqOely56c9NGw84fB2mv4xlkW7aNc6lfxjqoJ46L5nSJxbdKNrfJcQwu4hrlvFW7St8nVLgt5L+ebaocssqTMwQBNWV30uXPoYItJMfPnWOJ+ZAXfuOvulH/qxiM6K2ERM8gHri8QuaCFUcudWMid022texFm9e2fc2lbuW1QLZWy9u203MrMAUzs0EnQ6QKa6VbLx2HXDKt7aWIwznPiTauZ8UGygBFgArbkTG6S06xVZe9LWMCl2w1lFAnfdczuA0YAakakwO/QGrT0zY4kfM4YCfopdLeU3dT3VAOgei/D4pTiWvfKFwzMpw9vFNmxCjXMWnVVOmh/iTt5riL+k3aOfL1uEXWNEGf9l3gN3E7+NVGM9LO085AuKkGMps28w13GV3+VSCftrpibeJvp1dtst+6JLwTF19SJ0owe27eIlShtvEgTIbwMDWsdtJVe41y7cyXHJe4kFiHYktqBAmZjeJg7qTbvG3cBVcqAgoQSwjmG4kgSd2o3DdXNOhFptanq4fiU1KMZWy6Gvw+zgzdpgq8zVmMRs6yO2wcjhqfduqhxi9agaTqNwJA79N1QrOHSNAo55pYzx0Om+uVJdz25znpH+TabA6b4cYuwbdoqM4ts4AXs3OzBEaiSrafVrspFfNGz8EyXrDkHKbqweGYMsggeqeMHWCK+mRXZRfR2Pn+JQeZZtTCeku2q38LdcSoFwcfWGQru36nceRriXTe5OLvfpx7FVSfEkEnvJrvPpXvFMHnFsPldTmMQknKd+vaDFdPrCvnLaV7NcZjvJJPnqfjW555K6K2Q+MwyEAhr9sEESCDcWZHKJrrHSr0c2nJu4JhZff1RMWz+gd9vw9X9GuS9HMUbV9LoIBtywJ3TBA+M+VbB+nOIP9oPJRVZRT1NKdSVN3iyjx+Ea25t30NtxvkaeMDh3rp40xbwnbUN6pOpG4gamCO4VZbT2/cvgLdbOBukCR4GJFV1lwuaCYj4aiRx3R51ly3c7li4yg79Ge3jcxV8W0GpMAblVVkyTwVQCfLdrWp2N0Hwr22L3L7MHtoGUpaUm4+VmVSjGFBkSdY3Co/QDBILdy/dGlx+qB0JAWH0G8yRu49URvipa4m6l+/bdhoyXLZX1WQqCrL3fNn310HmlFt3o51BuG1c620jm2xjK9tgxUZ1GkNGjjQnQ5TANYGq32hZxN/F3rdlC6lPnBIiGi8WMmAQzAjmRAnWqMNXLVj1uevgKvltsOmpGI2cUIZgcriRljNA0mDwmR5Go1oyVHePjU3FY+6HIzkxAEw0ADQCRoIrHuekssleQyBb/GXR+op/x0/h8MzsBbLtzLLlA95mkptZ+KofFY/dIqVh9uFdeqSe4uPtNQy8VDcTou4AeWtJbFwCxOgE0jaGOF1swXJO8AzJ57hUHHtK5JAkST9m/wC8VEIZpWFeuqVNyXbQjteLyVIuNOYrqD4ww7cch4wY0WmJOUMs92gIJ5EHQ/fdURcKV7SHOy6xpKx9IgEyB7uNP/K3ESQ3cVBB927vBB4zXoLp0PlG23dks4sRuIMbgZgxwLd+6ffvKramJTtKT6wPHjIYyG5z5aRUR71ngzAngJaPAldQKVbtXAPmyxU6hkJAPnz5g6ipIJNnFlcwaY+iGklTxg5gQp+rrzgTq1iX6yVTsuw3cHAElQ09jdMHRo1OgFNYfFcLoLgerMlxzBOYaTwM+XFN4ByRaBVo1X6w4wSxgcwSJ91AeWcFcsnrGDIBxGUzOmXSRB3HNprx3UWcegOlrLwlCM4nTsErv1/0pCWHsnO6kDdGhzz9E7xB138txpSY1DotoITpmU9sTykfccaAUNlQ0G7bjkGXMe4KSBm7p30Ha9wGFULHZAILOI0ALEyTw+AG6m/weBM3LZj6KMpY9wBjX2+dKTa9yQqheQEEtyiSZNAJvYWzm7dzI30kALZTxXNz9sbjJBpGJdz6qRbUyoUSsDjmiWPMnnw3UGxZHrXDP1VBIHdmjUd/xpybjKQOyu5QDCAazx1HefOoBdbExGa3l5f6fwq+s7Yt27SoLKO4k53AiWM6ACTw4isfsK7BiZ4Tw7o/Zq0a7XDOOWTR9ThqnMpRb1sTrGKe5iLS6DPdtdhQFSesgdldJ13nXU19ExXBuguxWu4uw5HZW+h5E5FNzSd8ZffXepregujPJ4pPzx/YZx2DS6jW7qh0YQykSCK43079GFuwTdsrNpjy9Td2SeWuh7vb2ym7lsMCrAEEQQdxB3gitzzD5fubMCGMsU0cOK6r0+6Di1N60CbZOq6k29Oesrv1O7SudYrDFTrQFabdGTst5fefs/hUgrTZWgNdsFktbPQ3ADaYPn36fPtB7OuhymRqIBG6rXo/thbAb5pMSDPzjBSwtMRomhU9o6nQMSNATUDYmJw52eLGI0UF85mAELBwJGpJJ3Cl4N8ikW7L20ZYRXlGCEnK8STB7e/XnoWDSCZtjZrWL6HCkW0xI6w3hrk0VYRTvJUoVG5Qx5Vzva+GW1euW0YMqOVVgQZUHsmRoTETHGa1XSJ71+wli28Nb9UAkF0gAppz08YjjWPs4VxaJZSIcqCd8gBoP7WhrKorq514SdpOO4i1dgg8iD7DVj0gwrWrpDCMwDDvBFVIQ1e2dvBra276ZwoADaFgoEAa8hxFc7XdHr0p3TjJ2KkNSg1WPU4Z9zFe6Y/filLsa0fVuN+zm/dqrsbKEnpZ/kr1NRbjK5JLEEGNYgju1BmZ9o3VoLOwrUw925rouW2SZ365oqOeiZk6acJdt3/Cq9KUYu7Zy42jWnFRirlGbZU50acvER2Z4mCTHfumvflzzDFXHFSN/fMyPGtBh+i5Vgw3idztxEcLQqS/R/MIbXjvJ89VrfnQ3PO+n4j7flGYc2YMXGnhvMf3NfdXnU3AOxny7wU1B7ww31pj0btjfk89P8a17b2ZaQAdbYAG7tAEefXa050dyfp9fukvyjM2sUsfOyx4E+t4Mcwn3kc+FNkZyeqBHMbj4gsTp3TWqbA4WZa7Zk7zmtk/4q8t2cIu68uv1bc/u2ac6PqI8PqPuvcy9vC3LZlkbX6I+l3E6ilE5oQWwmbSQVzeZ07POtWHww3Mx/Rtv/BaSmMs8BiG9w992q85bF1w6XeS/HUzY2Fc3xm7l1nz3x4CnbtrElSCBBEFSGXQ8AXAj21fXMVb/J3P6bWx9jUk7VRd1q2v6V3+VVqOfsvk0+nJLzTt+CkTYC/WDGNwZSJ7xoYpZ2RfOnWaf7zdyAC5QI4bqtxttyNOoA5gXH+LkVHxW3HSM13LO4LaVT+7PtpzZvRDweHj+qfykN7L6NkHtXMv6nfwyk++N9XGG2dZUZrjsR39geEmT5AA1k329iHMG68H8993tipWzjdu3URSWYsEA3klmyhcxkgZj7JqsqUpO7NqWNw9KOSN7ep2L0WYdbrNiEXLat/N29CAzHV2AOsCYk6ks010SoOxdmJh7NuygACKBpxO8t4kyfOps1vCOVWPKxFV1ajkKoooqxiNuoIIIkHQg99c96ZdAfWu4ZZG82gNR+hzH5u8cJ3Do1eUB82Y3Z5Umq+6unf99K790p6G2sSCywl4/S4N+kPtGvjurkvSLozdsuVuIVPDkw5g8RQB0FxNxiLNoKXcDLOUElJMK7armXKYGpy8d1T/AJPev38S+IzL1aW1sgEgDOxkgbt4g7/trI4HENZugSVIOZX+qVMqfIkjwrfYvbK4lbbAC3ehhdXcrMAro69xKkdxqxBSBgb16xIFy02a0W422VdGI4TIJA0OQ8NYPTW/FtAVyvq7Kd5ZsoViBpuDajQyDxk2WN2Tae5axV24yuogIh7d2CYED1ViZO8g8gSMl0ox3WXI005buWncIjvieNQ9i0W07oqziuY99J+UDvpp6Xat6+/7/fjWfLibeJnuLk14acIpJFSoIiVeo+4tcU4EB3A5BiB7AaV1in1sxPjTEUVDgmWhiKkXrf8AfqSM9v6h/apQvJ+LHmf+1Ra9FRy4/wDMnxdX09iYMQv4tfjShiRwVB5VCmlBqnJHYjxVXf8AomriDzpYvnmfbUENXoepyx2M3VqPWT9yyt3yDINWFrbLFTbftIwhhzBrP9aaBeNWKOTepFxFvqnIMld6tuPjPAinDlbUifzkgE+KnT2EU5fuZhBEiq9rJG6guyXbKpqoee85B55SSfaKi37hZiSZJ+8AcKQQ3JvYafwuEZmAiJO8zA790+yhArCp99PL7fvu636FOhpZlx15YRf6gEesxBXrP0VBIHMkngCXugno+2Xo13FWsXcMEWw+RFiD/V5s774ObTX1a6xbQAAAAACABoABwFAOUUUUAUUUUAUUUUAVRdM9knEYdlRQzqQyAmNRvA7ypI1q9ooD5u6S4E5irKyXEPqsCp8CDqJqswm2GQQVLRpGoPGdR6o3V9Gbf6M4fFiL9sEjc40cefHwMiubdJ/RAwl7BLiOGj+EGQ/30oDAY3pCShVBlkEEjeeGrbz8fhVHdukkknU1d7R6IXrTFWYqRoVKZSO41B/ATDeakFaupqUoqUmzCKWMGagEOKMtTRhK9+TUBByV71dTvk1HyegIPV171dTvk9e9RQEDqqV1VThYpQsUBAFqvRZqf1Fe9RQEEWaULFThYpQs0BBGHpS4ap6WZMDU8hv9lS8Nsa+/qWLrcOzbc6+QoCpXD06litLh+g+OeYwtzT62VP3yJ8qtLHowxxOotJ3tc/lBoDGpbrQ7B6QX7BHV3rij6s5k3z6rSK02D9E13TrcQi7pCIWPfqSseMGrzZ/owwqQbj3bncSFXfyUT76AvOie2flNgXDGcEq4AIGYQdJ/NKnzq5qFsvZlqwmSygReQ4mIkk6k6bzU2gCiiigCiiigCiiigCiiigIG1Nj2b65bttW0gH6Q8G3isVtj0WhtbF2Pzbg9vbX+WuiUUBw/aPQbGWpmwzDnbh58l19oqpubHugw1m4CN4KMD7Ir6DpVAfOx2Vc/FXP2G/hSrexLzGFsXWPIW3J9wr6IooD58/ozifybEf8ABufy1IXoVjSJGGu89wHuJrvVJFAcRHo62gf/AI8d5uWYHfo9TLXotxpIBFlRzNwke5ZrsXClCgOTWPRJiDOe/ZXlAdviBFS7Xogb6WKUHusk+8uK6fRQHPLHojsCM+IunnARQecSDHtNT7HotwKnXrnHJrkefYAraUUBmLPo82eoj5PPeXuE/vVYWOi+DQyuFsDh/VqfiKt6KAj2MHbQAJbRQNwVQoE8oFP17RQBRRRQBRRRQBRRRQH/2Q=="
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 3,
+       "name": " Swift-Dezire",
+       "brand": "Maruti Suzuki",
+       "price": 1000000,
+       "color": [
+         "Blue"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/664x374/n/cw/ec/45691/marutisuzuki-dzire-right-front-three-quarter8.jpeg?q=75&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 4,
+       "name": "Ciaz",
+       "brand": "Maruti Suzuki",
+       "price": 1200000,
+       "color": [
+         "Blue"
+       ],
+       "images": [
+         "data:image/jpeg;base64,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"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 8,
+       "name": "Ignis",
+       "brand": "Maruti Suzuki",
+       "price": 5000000,
+       "color": [
+         "White"
+       ],
+       "images": [
+         "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230227010535_hmm.png"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 9,
+       "name": "Celerio",
+       "brand": "Maruti Suzuki",
+       "price": 6000000,
+       "color": [
+         "Grey"
+       ],
+       "images": [
+         "https://s3.india.com/wp-content/uploads/2021/11/Maruti-Suzuki-Celerio-1.jpg"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 10,
+       "name": "Vitara Breeza",
+       "brand": "Maruti Suzuki",
+       "price": 1100000,
+       "color": [
+         "Yellow"
+       ],
+       "images": [
+         "https://imgk.timesnownews.com/story/1562340569-Maruti_Suzuki_Vitara_Brezza.png?tr=w-1200,h-900"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 11,
+       "name": "Grand-Vitara",
+       "brand": "Maruti Suzuki",
+       "price": 1400000,
+       "color": [
+         "Red"
+       ],
+       "images": [
+         "https://media.zigcdn.com/media/content/2022/Sep/1008007147-zw-seats-accessorises-gravitara-3.jpg"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 12,
+       "name": "Eco",
+       "brand": "Maruti Suzuki",
+       "price": 1000000,
+       "color": [
+         "Blue"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/600x600/n/cw/ec/135523/eeco-exterior-right-front-three-quarter.jpeg?isig=0&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 13,
+       "name": "Swift",
+       "brand": "Maruti Suzuki",
+       "price": 800000,
+       "color": [
+         "Red"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/664x374/n/cw/ec/54399/exterior-right-front-three-quarter-10.jpeg?q=75&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 14,
+       "name": "Wagnor",
+       "brand": "Maruti Suzuki",
+       "price": 5000000,
+       "color": [
+         "Blue"
+       ],
+       "images": [
+         "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Maruti-Suzuki-Wagon-R-.jpg&w=730&h=484&q=75&c=1"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 15,
+       "name": "Gimmny",
+       "brand": "Maruti Suzuki",
+       "price": 1000000,
+       "color": [
+         "Yellow"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/664x374/n/cw/ec/45299/jimny-exterior-right-front-three-quarter-26.jpeg?isig=0&q=75&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 16,
+       "name": "Alto-K10",
+       "brand": "Maruti Suzuki",
+       "price": 600000,
+       "color": [
+         "Red"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/664x374/n/cw/ec/127563/new-alto-exterior-right-front-three-quarter.jpeg?isig=0&q=75&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 17,
+       "name": "Baleno",
+       "brand": "Maruti Suzuki",
+       "price": 1000000,
+       "color": [
+         "White"
+       ],
+       "images": [
+         "https://cdni.autocarindia.com/ExtraImages/20220228061914_Maruti_Baleno_2022_front.jpg"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 18,
+       "name": "S-presso",
+       "brand": "Maruti Suzuki",
+       "price": 600000,
+       "color": [
+         "Blue"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/642x336/n/cw/ec/126463/s-presso-exterior-right-front-three-quarter.jpeg?isig=0&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 19,
+       "name": "Fronx",
+       "brand": "Maruti Suzuki",
+       "price": 1000000,
+       "color": [
+         "Blue"
+       ],
+       "images": [
+         "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-4.jpeg?isig=0&q=75&q=75"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     },
+     {
+       "id": 20,
+       "name": "Cultus Cresent",
+       "brand": "Maruti Suzuki",
+       "price": 1400000,
+       "color": [
+         "Red"
+       ],
+       "images": [
+         "https://i.pinimg.com/originals/c6/89/f0/c689f0ccf57775148a908f1dd70edd51.jpg"
+       ],
+       "rating": 4.7,
+       "review": 248,
+       "description": [
+         "Fuel Type - Petrol, CNG",
+         "Mileage - 20.3 - 26.11 km/l",
+         " Seating Capacity - 7 People",
+         "Safety Rating - 3 Star (Global NCAP)",
+         "Engine Size- 1462 cc",
+         "Transmission - Manual, Automatic (TC)",
+         "Fuel Tank- 45L, 60L"
+       ]
+     }
+   ]
+ 
+ }
